@@ -21,12 +21,12 @@ public class Problem_09_Test {
 	 */
 	@Test
 	public void testStringRotation() {
-		Assert.assertTrue(Problem_09.isRotation("waterbottle", "erbottlewat"));
-		Assert.assertFalse(Problem_09.isRotation("camera", "macera"));
-		Assert.assertTrue(Problem_09.isRotation("rotation", "rotation"));
-		Assert.assertFalse(Problem_09.isRotation("sample", null));
-		Assert.assertFalse(Problem_09.isRotation(null, "sample"));
-		Assert.assertFalse(Problem_09.isRotation(null, null));
+		Assert.assertTrue(Problem_091.isRotation("waterbottle", "erbottlewat"));
+		Assert.assertFalse(Problem_091.isRotation("camera", "macera"));
+		Assert.assertTrue(Problem_091.isRotation("rotation", "rotation"));
+		Assert.assertFalse(Problem_091.isRotation("sample", null));
+		Assert.assertFalse(Problem_091.isRotation(null, "sample"));
+		Assert.assertFalse(Problem_091.isRotation(null, null));
 	}
 
 }
